@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.main > .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a56a1;
+    color: #fff;
+    padding: 10px;
+
+    li {
+        list-style: none;
+        cursor: pointer;
+    }
+
+}
+
+.main > .content {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 30px;
+
+    img{ 
+        border-radius: 10px;
+        margin-left: 2rem;
+        transition: 0.5s;
+    }
+    img:hover{
+        transform: scale(1.1);
+       
+    }
+    p {
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+.main > .footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: #404246;
+    color: #fff;
+    align-items: center;
+    padding: 20px 30px;
+
+    .footer-div {
+       li {
+        list-style: none;
+        cursor: pointer;
+       }
+       li:hover {
+        text-decoration: underline;
+       }
+    }
+}
+.main > .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+    .Subscribe {
+        background-color: #e07e1b;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 18px;
+        transition: 0.5s;
+    }
+    .Subscribe:hover {
+        transform: translateY(-5px);
+    }
+}
+
+.main > .sing-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 25px;
+
+    .fields {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        .inputs {
+            width: 400px;
+            outline: none;
+            padding: 5px 8px;
+            border: 1px solid #00af39;
+            border-radius: 10px;
+            color: #d30827;
+            
+        }
+
+        .sign-up-btn {
+            width: 12rem;
+            margin-left: 5rem;
+            background-color: #e07e1b;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: 0.5s;
+        }
+    }
+}
